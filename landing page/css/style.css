@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: poppinsBold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: poppinsBlack;
+}
+
+#color{
+    color: rgb(64, 255, 112);
+}
+
+#title{
+    font-size: 8px;
+    font-size: poppinsBlack;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(64, 255, 112);
+    transition: 0.3s all;
+    opacity: 0.5 all;
+}
+
+#Inscri{
+    border: 2px solid rgb(64, 255, 112);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#Inscri:hover{
+    background-color: rgb(64, 255, 112);
+    color: white;
+    transition: 0.3s;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 52px;
+    line-height: 10px;
+    font-family: poppinsBlack;
+}
+
+span{
+    font-size: 66px;
+    color: rgb(64, 255, 112);
+}
+
+p{
+    font-family: poppinsLight;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 600px;
+}
+
+img{
+    width: 260px;
+    padding-left: 150px;
+    pointer-events: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 45px;
+    width: 30%;
+    background-color: rgb(64, 255, 112);
+    font-weight: bold;
+    color: white;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(46, 199, 84);
+    color: white;
+    transition: 0.5s;
+}
+
+input{
+    margin-top: 10px;
+    height: 12px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
